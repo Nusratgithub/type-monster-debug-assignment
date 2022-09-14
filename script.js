@@ -7,7 +7,6 @@ const modalBackground = document.getElementById("modal-background");
 
 // variables
 let userText = "";
-let errorCount = 0;
 let startTime;
 let questionText = "";
 
@@ -66,6 +65,7 @@ const gameOver = () => {
   document.removeEventListener("keydown", typeController);
   // the current time is the finish time
   // so total time taken is current time - start time
+  const errorCount = 0;
   const finishTime = new Date().getTime();
   const timeTaken = (finishTime - startTime) / 1000;
 
