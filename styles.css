@@ -62,9 +62,9 @@ body {
   display: none;
 }
 #result {
-  position: absolute;
-  top: 50%; 
-  left: 50%;
+  position: fixed;
+  top: 10%; 
+  left: 10%;
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
@@ -144,15 +144,16 @@ button {
 #histories {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  
 }
 
 .card {
+  text-align: center;
   width: 100%;
   height: 100%;
   padding: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px 30px;
   color: white;
@@ -178,9 +179,7 @@ button {
   height: 100vh;
   width: 100%;
   position: absolute;
-  justify-content: center;
-  align-items: center;
-  
+  top: 0;
 }
 
 @media only screen and (max-width: 700px) {
