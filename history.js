@@ -6,7 +6,7 @@ function addHistory(questionText, timeTaken, errorCount) {
 
   newRow.innerHTML = `
   <div class="col-lg-4">
-  <h3 class="mb-3">${questionText}</h3>
+  <h3 class="">${questionText}</h3>
   <div>
   <p>You took: <span class="bold">${timeTaken.toFixed(0)}</span> seconds</p>
   <p>You made <span class="bold red">${errorCount}</span> mistakes</p>
