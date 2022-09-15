@@ -141,12 +141,6 @@ button {
   cursor: pointer;
 }
 
-/* #histories {
-  display: flex;
-  flex-wrap: wrap;
-  
-} */
-
 .card {
   text-align: center;
   padding: 30px;
