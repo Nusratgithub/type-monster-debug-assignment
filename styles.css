@@ -141,24 +141,18 @@ button {
   cursor: pointer;
 }
 
-#histories {
+/* #histories {
   display: flex;
   flex-wrap: wrap;
   
-}
+} */
 
 .card {
   text-align: center;
-  padding: 50px;
-  display: flex;
-  /* justify-content: center;
-  align-items: center; */
-  padding: 20px 30px;
+  padding: 30px;
   color: white;
   border-radius: 15px;
-  background: rgb(255, 255, 255);
   background: linear-gradient(
-    92.49deg,
     rgba(255, 255, 255, 0.1) 0.18%,
     rgba(255, 255, 255, 0.05) 99.85%
   );
@@ -192,8 +186,11 @@ button {
   }
 }
 
-@media only screen and ( max-width: 999px) {
-  .card {
-    flex-direction: row;
+@media only screen and (min-width: 999px){
+  #histories{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    
   }
 }
